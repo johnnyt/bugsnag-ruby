@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name = "bugsnag"
+  s.name = "bugsnag-maglev-"
   s.version = File.read("VERSION").strip
 
   s.authors = ["James Smith"]
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   ]
   s.require_paths = ["lib"]
 
-  s.add_dependency 'json', '~> 1.7', '>= 1.7.7'
+  s.add_dependency 'json', '~> 1.7', '>= 1.7.5'
 
   if RUBY_VERSION < "1.9"
     s.add_development_dependency "rake", "~> 10.1.1"
